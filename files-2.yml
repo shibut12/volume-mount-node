@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: file3-config
+  namespace: default
+data:
+  file3.yaml: TEST-FILE-3
